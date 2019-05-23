@@ -1,13 +1,115 @@
-*{
-	box-sizing:border-box;
+/** CSS pour la page entière */
+
+body {
+	margin:0; 
+	font-family: Trebuchet MS , sans-serif;
+	height: 100vh;
 }
-	
+
+img {
+	width: 100%; 
+	height: auto;
+}
+
+/*HEADER*/
+
+.titre {
+	z-index:100;
+	top:10px;
+	width:100%;
+	text-align: center;
+
+}
+
+.titrepage {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Trebuchet MS';
+	color: #ffffff;
+
+}
+
+.intro {
+	text-align: center;
+	font-family: 'Trebuchet MS';
+	color: #ffffff;
+}
+
+
+
+/*FORMULAIRE HEADER*/
+
+.formHeader {
+	height: 50px;
+	background-color: #ffffff;
+	opacity: 0.8;
+	margin-top: -100px;
+	padding : 10px;
+}
+
+.infos {
+	opacity: 1!important;
+	background-color: #ffffff;
+}
+
+#valider {
+	background-color: #3e8f3e;
+}
+
+
+/*MAIN*/
+
+/*LES BOUTONS
+Utilisation d'Isotope pour trier*/
+
+.buttons {
+	position: absolute;
+	top:4px;
+	right:2px;
+}
 
 
 
 
+/*GENERAL*/
+
+section {
+	border-bottom: solid 1px #888888;
+}
+
+/*Caroussel*/
+
+.carousel-control-prev-icon {
+    background-image: url('../img/prev.jpg');
+}
+
+.carousel-control-next-icon {
+    background-image: url('../img/next.jpg');
+}
+
+/*DESCRIPTION de la voiture*/
+
+.buy {
+	background: #3e8f3e;
+	color:#ffffff;
+}
+
+.row {
+	margin-right:0;
+}
+
+.descriptif {
+	padding-top:50px;
+}
 
 
+/*FOOTER*/
 
+.adresse {
+	padding-top:50px;
+}
 
-
+.agence {
+	width: 200px;
+	height:200px;
+}
